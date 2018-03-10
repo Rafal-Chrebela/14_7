@@ -16,7 +16,7 @@ var contacts = [
     firstName: 'Zbigniew',
     lastName: 'Koziol',
     email: 'zbigniew.koziol@example.com',
-  },
+  }
 ];
 
 var contactForm = {
@@ -28,10 +28,10 @@ var contactForm = {
 var App = React.createClass({
   render: function() {
     return (
-		<div className={'app'}>
-		<ContactForm contact={contactForm} />
-		<Contacts item={contacts} />
-		</div>
+      <div className={'app'}>
+        <ContactForm contact={contactForm} />
+        <Contacts item={contacts} />
+      </div>
     )
   }
 });
