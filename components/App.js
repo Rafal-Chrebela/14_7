@@ -17,12 +17,6 @@ var contacts = [
     lastName: 'Koziol',
     email: 'zbigniew.koziol@example.com',
   },
-  {
-    id: 4,
-    firstName: 'Zbigniew',
-    lastName: 'Koziol',
-    email: 'zbigniew.koziol@example.com',
-  }
 ];
 
 var contactForm = {
@@ -35,9 +29,9 @@ var App = React.createClass({
   render: function() {
     return (
 		<div className={'app'}>
-		</div>
-		<ContactForm contact={contactForm}></ContactForm>
+		<ContactForm contact={contactForm} />
 		<Contacts item={contacs} />
+		</div>
     )
   }
 });
