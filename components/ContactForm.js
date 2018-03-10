@@ -1,4 +1,4 @@
-/*var ContactForm = React.createClass({
+var ContactForm = React.createClass({
   propTypes: {
     contact: React.PropTypes.object.isRequired
   },
@@ -13,9 +13,9 @@
       </form>
     )
   },
-})*/
+})
 
-var ContactForm = React.createClass({
+/*var ContactForm = React.createClass({
     propTypes: {
         contact: React.PropTypes.object.isRequired
     },
@@ -29,4 +29,4 @@ var ContactForm = React.createClass({
             </form>
         )
     }
-});
+});*/

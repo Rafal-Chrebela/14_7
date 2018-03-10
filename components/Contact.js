@@ -1,17 +1,17 @@
-/*var Contact = React.createClass({
+var Contact = React.createClass({
   propTypes: {
-    item: React.PropTypes.object.isRequired,
+    item: React.PropTypes.object.isRequired
   },
 
-  render: function() {
-    return (
+  render: function(){
+    return(
       <div className={'contactItem'}>
         <img className={'contactImage'} src={'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'} />      
         <p className={'contactLabel'}>
-          {'Imię:' + this.props.contact.firstName}
+          {'Imię:' + this.props.item.firstName}
         </p>
         <p className={'contactLabel'}>
-          {'Imię:' + this.props.contact.lastName}
+          {'Imię:' + this.props.item.lastName}
         </p>
         <a href={'mailto:' + this.props.item.email} className={'contactEmail'}>
           {this.props.item.email}
@@ -19,9 +19,9 @@
       </div>
     )
   },
-});*/
+});
 
-var Contact = React.createClass({
+/*var Contact = React.createClass({
     propTypes: {
         item: React.PropTypes.object.isRequired
     },
@@ -36,6 +36,6 @@ var Contact = React.createClass({
 
         )
     }
-})    
+})*/    
     
     
